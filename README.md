@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>浪漫星空</title>
+  <title>星空</title>
   <style>
     body {
       background-color: #000;
@@ -65,12 +65,38 @@
 </head>
 <body>
   <div class="container">
-    <h1>浪漫星空</h1>
+    <h1>星空</h1>
     <p>感受星星的闪烁之美。</p>
   </div>
   <div class="stars">
     <!-- 添加星星元素 -->
     <div class="star" style="top: 10%; left: 20%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 10%; left: 20%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 30%; left: 80%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>    
+    <div class="star" style="top: 10%; left: 20%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 30%; left: 80%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
     <div class="star" style="top: 50%; left: 50%;"></div>
     <div class="star" style="top: 50%; left: 50%;"></div>
     <div class="star" style="top: 50%; left: 50%;"></div>
