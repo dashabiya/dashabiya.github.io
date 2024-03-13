@@ -2,10 +2,10 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>炫酷首页</title>
+  <title>浪漫星空</title>
   <style>
     body {
-      background-color: #222;
+      background-color: #000;
       color: #fff;
       font-family: Arial, sans-serif;
     }
@@ -30,28 +30,50 @@
       margin-bottom: 2rem;
     }
     
-    .button {
-      display: inline-block;
-      padding: 1rem 2rem;
-      font-size: 1.2rem;
-      background-color: #ff4c4c;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 25px;
-      box-shadow: 2px 2px 4px #000;
-      transition: background-color 0.3s ease;
+    .stars {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      pointer-events: none;
     }
     
-    .button:hover {
-      background-color: #ff1a1a;
+    .star {
+      position: absolute;
+      width: 2px;
+      height: 2px;
+      background-color: #fff;
+      opacity: 0;
+      border-radius: 50%;
+      animation: twinkling 5s infinite;
+    }
+    
+    @keyframes twinkling {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Welcome to my Cool Homepage!</h1>
-    <p>Discover the world of awesomeness.</p>
-    <a href="#" class="button">Get Started</a>
+    <h1>浪漫星空</h1>
+    <p>感受星星的闪烁之美。</p>
+  </div>
+  <div class="stars">
+    <!-- 添加星星元素 -->
+    <div class="star" style="top: 10%; left: 20%;"></div>
+    <div class="star" style="top: 30%; left: 80%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <!-- 添加更多星星元素，可以根据需要增加或调整位置 -->
   </div>
 </body>
 </html>
