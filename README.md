@@ -71,7 +71,17 @@
   <div class="stars">
     <!-- 添加星星元素 -->
     <div class="star" style="top: 10%; left: 20%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
     <div class="star" style="top: 30%; left: 80%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
+    <div class="star" style="top: 50%; left: 50%;"></div>
     <div class="star" style="top: 50%; left: 50%;"></div>
     <!-- 添加更多星星元素，可以根据需要增加或调整位置 -->
   </div>
