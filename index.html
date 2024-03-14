@@ -36,7 +36,81 @@
 		}
 	</style>
 	<meta charset="utf-8">
-	<title>梅赛德斯-布加迪</title>
+	<title>应急响应工具</title>
+
+    <title>Cool HTML Page</title>
+    <style>
+        body {
+            background-color: #000;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        .moon {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 100px;
+            height: 100px;
+            background: radial-gradient(circle at center, #fff, transparent);
+            border-radius: 50%;
+            animation: moonlight 20s linear infinite;
+        }
+        
+        @keyframes moonlight {
+            0%, 100% {
+                box-shadow: 0 0 50px #fff;
+            }
+            50% {
+                box-shadow: 0 0 100px #fff;
+            }
+        }
+        
+        .star {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background-color: #fff;
+            opacity: 0;
+            pointer-events: none;
+            animation: shooting-star 5s linear infinite;
+        }
+        
+        @keyframes shooting-star {
+            0% {
+                opacity: 1;
+                transform: translate(0, 0) scale(1);
+            }
+            100% {
+                opacity: 0;
+                transform: translate(100vw, 100vh) scale(0.2);
+            }
+        }
+    </style>
+    <script>
+        function createStars() {
+            var starCount = 100; // 星星数量
+            
+            for (var i = 0; i < starCount; i++) {
+                var star = document.createElement('div');
+                star.className = 'star';
+                star.style.top = randomIntFromRange(0, window.innerHeight) + 'px';
+                star.style.left = randomIntFromRange(0, window.innerWidth) + 'px';
+                star.style.animationDelay = randomIntFromRange(0, 10) + 's';
+                document.body.appendChild(star);
+            }
+        }
+        
+        function randomIntFromRange(min, max) {
+            return Math.floor(Math.random() * (max - min + 1) + min);
+        }
+        
+        window.onload = createStars;
+    </script>
+
+
+
 </head>
 
 <body class="IRE">
@@ -132,6 +206,8 @@
 </tr>
 </tbody>
 </table>
+
+<div class="moon"></div>
 </body>
 
 </html>
