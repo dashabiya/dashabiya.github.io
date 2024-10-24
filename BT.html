@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BT</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    
+    .categories {
+      display: flex;
+      justify-content: flex-start;
+    }
+    
+    .category {
+      margin-right: 2%;
+    }
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    li {
+      margin-bottom: 10px;
+    }
+    
+    h1 a {
+      color: white;
+      text-decoration: none;
+    }
+    
+    a {
+      color: green;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="categories">
+
+    <div class="category">
+      <h1><a href="#">推送</a></h1>
+      <ul>
+        <li><a href="https://wechat.doonsec.com/">公众号爬取-洞见</a></li>
+        <li><a href="https://attack.mitre.org/matrices/enterprise/">attck矩阵查询</a></li>
+        <li><a href="https://cvetrends.com/">cve热度推送(x)</a></li>
+        <li><a href="https://roadmap.sh/">国外cs学习路线</a></li>
+        <li><a href="https://hackernews.cc/">黑客新闻获取</a></li>
+        <li><a href="https://dailydarkweb.net/">Daily Dark Web</a></li>
+      </ul>
+    </div>
+
+    <div class="category">
+      <h1><a href="#">情报</a></h1>
+      <ul>
+        <li><a href="https://x.threatbook.com/">微步情报</a></li>
+        <li><a href="https://threatbook.io/">微步情报(外)</a></li>
+        <li><a href="https://www.virustotal.com/gui/home/url">virustotal</a></li>
+        <li><a href="https://ti.qianxin.com/">奇安信情报</a></li>
+        <li><a href="https://ti.sangfor.com.cn/analysis-platform?lang=ZH-CN">深信服情报</a></li>
+        <li><a href="https://ti.360.net/#/homepage">360情报</a></li>
+        <li><a href="https://ti.venuseye.com.cn/#/home">启明星辰</a></li>
+        <li><a href="https://ti.nsfocus.com/">绿盟情报</a></li>
+        <li><a href="https://redqueen.tj-un.com/IntelHome.html">天际友盟</a></li>
+        <li><a href="https://ti.dbappsecurity.com.cn/">安恒情报</a></li>
+        <li><a href="https://ti.duba.net/">鹰眼情报</a></li>
+        <li><a href="https://www.antiycloud.com/#/antiy/index">安天情报</a></li>
+        <li><a href="https://exchange.xforce.ibmcloud.com/">IBM情报</a></li>
+        <li><a href="https://talosintelligence.com/">思科情报</a></li>
+      </ul>
+    </div>
+
+    <div class="category">
+      <h1><a href="#">沙箱</a></h1>
+      <ul>
+        <li><a href="https://s.threatbook.com/">微步云沙箱</a></li>
+        <li><a href="https://www.virustotal.com/gui/home/upload">VT沙箱</a></li>
+        <li><a href="https://sandbox.freebuf.com/detect?theme=freebuf">大圣沙箱</a></li>
+        <li><a href="https://ti.qianxin.com/">奇安信沙箱</a></li>
+        <li><a href="https://ata.360.net/">360沙箱</a></li>
+        <li><a href="https://ti.sangfor.com.cn/sandbox-dashboard">深信服沙箱</a></li>
+        <li><a href="https://ti.aliyun.com/#/sastiFile">阿里云沙箱  </a></li>
+        <li><a href="https://www.threatminer.org/">threatminer</a></li>
+        <li><a href="https://cloud.vdnel.cn/">可疑云</a></li>
+        <li><a href="https://app.any.run/">anyrun沙箱</a></li>
+        <li><a href="https://lab.dynamite.ai/">流量包分析1</a></li>
+        <li><a href="https://apackets.com/upload">流量包分析2</a></li>
+        <li><a href="https://virusshare.com/">VS沙箱</a></li>
+        <li><a href="https://dogbolt.org/">狗子在线执行</a></li>
+        <li><a href="https://saferwall.com/">绿墙</a></li>
+        <li><a href="https://tria.ge/submit/file">泰迦</a></li>
+        <li><a href="https://www.binaryai.cn/single-file">二进制分析</a></li>
+        <li><a href="https://www.hybrid-analysis.com/">hybrid</a></li>
+        <li><a href="https://urlscan.io/">URLscan</a></li>
+        <li><a href="https://rfeed.it/">rfeed</a></li>
+        <li><a href="https://n.shellpub.com/">河马查杀</a></li>
+        <li><a href="https://www.virscan.org/">virscan.org</a></li>
+        <li><a href="http://www.scanvir.com/upload.html/">virscan.com</a></li>
+        <li><a href="https://virusscan.jotti.org/zh-CN/scan-file">jotti</a></li>
+        <li><a href="http://tools.bugscaner.com/killwebshell/">php查杀</a></li>                         
+      </ul>
+    </div>
+
+    <div class="category">
+      <h1><a href="#">勒索</a></h1>
+      <ul>
+        <li><a href="https://edr.sangfor.com.cn/#/information/ransom_search">深信服查询</a></li>
+        <li><a href="https://lesuobingdu.qianxin.com/">奇安信查询</a></li>
+        <li><a href="https://lesuo.venuseye.com.cn/">启明星辰查询</a></li>
+        <li><a href="https://lesuobingdu.360.cn/">360查询</a></li>
+        <li><a href="https://guanjia.qq.com/pr/ls/">腾讯查询</a></li>
+        <li><a href="https://lesuo.venuseye.com.cn/">启明查询</a></li>
+        <li><a href="https://www.nomoreransom.org/crypto-sheriff.php?lang=zh">解码刑警</a></li>
+        <li><a href="https://www.free-uninstall.org/terms-of-use/">free</a></li>
+        <li><a href="https://www.pcrisk.com/">pcrisk</a></li>
+        <li><a href="https://www.avast.com/zh-cn/ransomware-decryption-tools#pc">avast解密</a></li>
+        <li><a href="https://habo.qq.com/tool/index">腾讯解密</a></li>
+        <li><a href="https://bbs.huorong.cn/thread-65355-1-1.html">火绒解密</a></li>
+        <li><a href="https://it.rising.com.cn/fanglesuo/index.html">瑞星解密</a></li>
+        <li><a href="https://noransom.kaspersky.com/zh/">卡巴斯基解密</a></li>
+
+
+        
+        
+
+
+        
+      </ul>
+    </div>
+
+
+
+    <div class="category">
+      <h1><a href="#">测绘</a></h1>
+      <ul>
+        <li><a href="https://hunter.qianxin.com/">hunter</a></li>
+        <li><a href="https://fofa.info/">fofa</a></li>
+        <li><a href="https://quake.360.net/">quake</a></li>
+        <li><a href="https://www.zoomeye.hk/">zoomeye</a></li>
+        <li><a href="https://0.zone/">零零</a></li>
+        <li><a href="https://www.shodan.io/">傻蛋</a></li>
+        <li><a href="https://hunter.how/"><hunter class="how"></hunter></a></li>  
+      </ul>
+    </div>
+
+    <div class="category">
+      <h1><a href="#">ip定位</a></h1>
+      <ul>
+        <li><a href="https://jlwz.cn/wapindex-1000-307.html">机领IP</a></li>
+        <li><a href="https://www.cz88.net/iplab?ipstr=">纯真IP</a></li>
+        <li><a href="https://wigle.net/">wigle</a></li>
+        <li><a href="https://www.opengps.cn/Data/IP/LocHighAcc.aspx">opengps</a></li>
+        <li><a href="https://www.ipip.net/ip.html">ipip</a></li>
+        <li><a href="https://ip.tool.chinaz.com/">站长IP</a></li>
+        <li><a href="https://www.ipuu.net/query/ip?search=">ipuu</a></li>
+      </ul>
+    </div>
+
+    <div class="category">
+      <h1><a href="#">ip定域名</a></h1>
+      <ul>
+        <li><a href="https://rapiddns.io/">rapiddns</a></li>
+
+
+      </ul>
+    </div>
+
+
+    <div class="category">
+      <h1><a href="#">seo</a></h1>
+      <ul>
+        <li><a href="https://seo.chinaz.com/">站长seo</a></li>
+        <li><a href="https://www.aizhan.com/cha/">爱站</a></li>
+
+      </ul>
+    </div>
+
+    <div class="category">
+      <h1><a href="#">whois</a></h1>
+      <ul>
+        <li><a href="https://tool.chinaz.com/ipwhois">站长whois</a></li>
+        <li><a href="https://whois.west.cn/">西部</a></li>
+        <li><a href="https://whois.ename.net/">易名</a></li>
+        <li><a href="https://whois.domaintools.com/">domaintools</a></li>
+        <li><a href="https://who.is/">who</a></li>
+        <li><a href="https://dnschecker.org//">dnschecker</a></li>  
+        <li><a href="https://hackertarget.com/whois-lookup/">lookup</a></li>
+        <li><a href="https://www.hashemian.com/tools/reverse-whois.php">reverse</a></li>
+        <li><a href="https://www.whatismyip.com/">whatis</a></li>
+        <li><a href="https://wq.apnic.net/static/search.html">apnis</a></li>
+        <li><a href="https://webwhois.cnnic.cn/WhoisServlet?domain=&queryType=Domain">国家whois查询</a></li>
+        <li><a href="https://www.abuseipdb.com/">abuseipdb</a></li>
+        
+
+        
+      </ul>
+    </div>
+
+    <div class="category">
+      <h1><a href="#">备案</a></h1>
+      <ul>
+        <li><a href="https://beian.miit.gov.cn/?wm=1134#/Integrated/recordQuery">ICP/IP备案</a></li>
+        <li><a href="https://www.beianx.cn/">ICP备案</a></li>
+        <li><a href="https://icp.chinaz.com/">站长备案</a></li>
+        <li><a href="https://whois.west.cn/icp/index">西部备案</a></li>
+        <li><a href="https://icp.5118.com/">5118</a></li>
+
+       
+      </ul>
+    </div>
+
+    <div class="category">
+      <h1><a href="#">查企业</a></h1>
+      <ul>
+        <li><a href="https://aiqicha.baidu.com/">爱企查</a></li>
+        <li><a href="https://www.tianyancha.com/login?from=https%3A%2F%2Fwww.tianyancha.com%2Fusercenter%2Fpersonalcenter">天眼查</a></li>
+        <li><a href="https://www.xiaolanben.com/">小蓝本</a></li>
+        <li><a href="https://www.qimai.cn/account/signin/r/%2F">七麦查</a></li>
+        <li><a href="https://www.diandian.com/">点点查</a></li>
+        <li><a href="https://www.qcc.com/">企查查</a></li>
+        <li><a href="https://www.riskbird.com/center/vip">风鸟</a></li>
+        <li><a href="https://www.sscha.com/">商商查</a></li>
+        <li><a href="https://www.qixin.com/">启信宝</a></li>
+        <li><a href="https://www.aldzs.com/">阿拉丁-小程序</a></li>
+      </ul>
+    </div>
+
+    <div class="category">
+      <h1><a href="#">证书</a></h1>
+      <ul>
+        <li><a href="https://crt.sh/">crt</a></li>
+        <li><a href="https://search.censys.io/#">censys</a></li>
+        <li><a href="https://developers.facebook.com/tools/ct/">Facebook</a></li>
+      </ul>
+    </div>
+
+
+    <div class="category">
+      <h1><a href="#">解码</a></h1>
+      <ul>
+        <li><a href="https://www.cmd5.com/">cmd5</a></li>
+        <li><a href=http://xmd5.org/">xmd5</a></li>
+        <li><a href="https://www.somd5.com/">somd5</a></li>
+        <li><a href="https://www.chamd5.org/">chamd5</a></li>
+        <li><a href="https://crackstation.net/">crack</a></li>
+        <li><a href="https://icyberchef.com/">icyberchef</a></li>
+        <li><a href="https://jwt.io/">JWT</a></li>
+        <li><a href="http://tools.bugscaner.com/cryptoaes/">AES</a></li>
+
+      </ul>
+    </div>
+
+
+    <div class="category">
+      <h1><a href="#">论坛</a></h1>
+      <ul>
+        <li><a href="https://mapify.so/cn">思维导图ai</a></li>
+      </ul>
+    </div>
+
+
+
+
+
+
+
+    <div class="category">
+      <h1><a href="#">AI</a></h1>
+      <ul>
+        <li><a href="https://poe.com/GPT-3.5-Turbo">poe</a></li>
+        <li><a href="https://www.pentestmuse.ai/login">pentestmuse</a></li>
+        <li><a href="https://chat.hackerai.co/zh/7dd2566d-dc7d-4b2f-9b1b-6ca22bab04e9/chat">hackerai</a></li>
+        <li><a href="https://udify.app/chat/Po0F6BMJ15q5vu2P">kimi</a></li>
+        <li><a href="https://kimi.moonshot.cn/">kimi-2</a></li>
+        <li><a href="https://passport.xfyun.cn/login">讯飞ai</a></li>
+        <li><a href="https://chat.forefront.ai/">forefront</a></li>
+        <li><a href="https://mapify.so/cn">思维导图ai</a></li>
+      </ul>
+    </div>
+
+
+
+  </div>
+</body>
+</html>
